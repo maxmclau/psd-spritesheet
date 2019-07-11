@@ -61,7 +61,7 @@
         sprite.layer.translate(-bounds[0], -bounds[1]);
     }
 
-    var json = JSON.stringify(sprites, ['x', 'y', 'w', 'h']);
+    var json = JSON.stringify(sprites, ['x', 'y', 'w', 'h', 'sx', 'sy']);
     output.writeln(json);
 
     output.close();
